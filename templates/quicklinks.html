@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Links</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/quicklinks_stylesheet.css">
+    <style>
+        .navbar {
+            background-color: yellow;
+        }
+        .navbar .nav-link {
+            color: black !important;
+            font-weight: bold;
+        }
+        .navbar .nav-link:hover {
+            color: rgb(255, 29, 29) !important;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid yellow;
+            padding-bottom: 5px;
+        }
+        .quick-links {
+            list-style: none;
+            padding: 0;
+        }
+        .quick-links li {
+            margin: 10px 0;
+        }
+        .quick-links a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .quick-links a:hover {
+            text-decoration: underline;
+            color: #ff0000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Shell IT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5000/dashboard">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5000/quicklinks">Quick Links</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5000/softwaredevelopment">tages of Deployment</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Quick Helpful Links</h2>
+        <ul class="quick-links">
+            <li><a href="https://www.shell.com" target="_blank">Shell Website</a></li>
+            <li><a href="https://github.com/Jess0010/ecommerce_dashboard/tree/064544403b0987019dec8306d6f100351e3fae4c/eccommerce-dashboard" target="_blank"> My GitHub</a></li>
+            <li><a href="https://uk.linkedin.com/company/shell" target="_blank">Shell Linked In</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

@@ -24,6 +24,17 @@ def query_db(query: str, args=()) -> list:
 
 app = Flask(__name__)
 
+@app.route("/dashboard")
+def dashboard():
+    return render_template("dashboard.html")
+
+@app.route("/quicklinks")
+def quicklinks():
+    return render_template("quicklinks.html")
+
+@app.route("/softwaredevelopment")
+def softwaredevelopment():
+    return render_template("softwaredevelopment.html")
 
 @app.errorhandler(404)
 def not_found(error):

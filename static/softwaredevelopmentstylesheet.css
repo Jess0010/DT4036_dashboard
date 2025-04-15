@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: yellow;
+    padding: 10px 20px;
+}
+
+.navbar .nav-link {
+    color: black !important;
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: rgb(255, 29, 29) !important;
+}
+
+/* Page Container */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 15, 15, 0.863);
+    border-radius: 5px;
+}
+
+/* Section Headers */
+h2 {
+    color: #333;
+    border-bottom: 2px solid yellow;
+    padding-bottom: 5px;
+}
+
+/* Paragraph Styling */
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Highlighted Info Boxes */
+.info-box {
+    background: #ffffcc;
+    border-left: 5px solid yellow;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

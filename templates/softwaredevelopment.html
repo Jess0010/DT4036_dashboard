@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Deployment Stages</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .navbar {
+            background-color: yellow;
+        }
+
+        .navbar .nav-link {
+            color: black !important;
+            font-weight: bold;
+        }
+
+        .navbar .nav-link:hover {
+            color: rgb(255, 29, 29) !important;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .section-title {
+            color: #ff1f1f;
+            margin-top: 20px;
+        }
+
+        .card {
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Shell IT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5000/dashboard">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5000/quicklinks">Quick Links</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5000/softwaredevelopment">Stages of Deployment</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container content">
+        <h1 class="text-center">Stages of Project Deployment</h1>
+
+        <div class="card">
+            <div class="card-body">
+                <h2 class="section-title">1. Planning & Preparation</h2>
+                <p>Deployment planning involves selecting the right tools, environments (dev, staging, production), and ensuring that infrastructure, backup, and rollback strategies are in place.</p>
+                <p><strong>Reference:</strong> AWS Deployment Best Practices, 2023</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h2 class="section-title">2. Build & Packaging</h2>
+                <p>In this stage, the application code is built into deployable artifacts, such as Docker images, compiled binaries, or zipped source code. Versioning and automation tools like GitHub Actions or Jenkins are used to streamline the process.</p>
+                <p><strong>Reference:</strong> Docker Docs, 2024</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h2 class="section-title">3. Testing & Quality Assurance</h2>
+                <p>Before deployment, the application undergoes unit, integration, and user acceptance testing (UAT) to ensure functionality, security, and performance meet the standards.</p>
+                <p><strong>Reference:</strong> IEEE Software Testing Guidelines, 2022</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h2 class="section-title">4. Deployment</h2>
+                <p>This is the actual release of the application to the target environment. It may involve blue-green deployments, rolling updates, or canary releases to minimize downtime.</p>
+                <p><strong>Reference:</strong> Microsoft Azure Deployment Strategies, 2023</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h2 class="section-title">5. Monitoring & Feedback</h2>
+                <p>After deployment, systems must be monitored for errors, performance, and user behavior. Logs and telemetry (using tools like Azure Monitor, Datadog, or Prometheus) provide critical insights.</p>
+                <p><strong>Reference:</strong> Google Site Reliability Engineering Book, 2023</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h2 class="section-title">6. Maintenance & Updates</h2>
+                <p>Post-deployment includes fixing bugs, patching security issues, and pushing updates. CI/CD pipelines are used for rapid and safe iterations.</p>
+                <p><strong>Reference:</strong> DevOps Handbook by Kim et al., 2021</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>2025 Shell Information Technology Limited International</p>
+    </footer>
+
+</body>
+
+</html>

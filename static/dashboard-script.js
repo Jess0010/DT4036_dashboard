@@ -98,24 +98,6 @@ fetchDataAndRenderChart("/api/revenue_generation", "revenueChart", (data) => ({
   // ... other options
 }));
 
-// Product Category Popularity Chart
-fetchDataAndRenderChart(
-  "/api/product_category_popularity",
-  "categoryPopularityChart",
-  (data) => ({
-    type: "pie",
-    data: {
-      labels: data.categories,
-      datasets: [
-        {
-          label: "Total Sales",
-          data: data.sales,
-          // ... other config
-        },
-      ],
-    },
-  })
-);
 
 // Payment Method Popularity Chart
 fetchDataAndRenderChart(

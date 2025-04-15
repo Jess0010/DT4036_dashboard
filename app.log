@@ -35,3 +35,668 @@ INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 13:08:33] "GET /api/low_stock_levels HT
 INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 13:08:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
 INFO:werkzeug:127.0.0.1 - - [27/Feb/2024 13:08:34] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 471-164-635
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217327939): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log", inode=46346805, flags=410000, id=217327954): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log", inode=46346805, flags=410000, id=217328114): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217328225): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217328521): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 471-164-635
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log", inode=46346805, flags=410000, id=217328680): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217328914): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 471-164-635
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib", inode=46347870, flags=20400, id=217738407): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12/site-packages", inode=46347872, flags=20400, id=217738410): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12", inode=46347871, flags=20400, id=217738413): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217738416): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv", inode=46347867, flags=20400, id=217738425): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib", inode=46347870, flags=20400, id=217738604): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217738610): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12/site-packages", inode=46347872, flags=20400, id=217738613): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv", inode=46347867, flags=20400, id=217738616): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12", inode=46347871, flags=20400, id=217738622): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log", inode=46346805, flags=410000, id=217738637): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib", inode=46347870, flags=20400, id=217738891): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12/site-packages", inode=46347872, flags=20400, id=217738894): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12", inode=46347871, flags=20400, id=217738897): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217738900): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv", inode=46347867, flags=20400, id=217738909): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log", inode=46346805, flags=410000, id=217738989): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217739236): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv", inode=46347867, flags=20400, id=217739239): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12", inode=46347871, flags=20400, id=217739242): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12/site-packages", inode=46347872, flags=20400, id=217739245): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib", inode=46347870, flags=20400, id=217739251): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib", inode=46347870, flags=20400, id=217739532): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12/site-packages", inode=46347872, flags=20400, id=217739535): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217739538): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv", inode=46347867, flags=20400, id=217739541): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12", inode=46347871, flags=20400, id=217739544): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 471-164-635
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log", inode=46346805, flags=410000, id=217739946): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12", inode=46347871, flags=20400, id=217740194): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12/site-packages", inode=46347872, flags=20400, id=217740197): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217740200): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib", inode=46347870, flags=20400, id=217740206): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv", inode=46347867, flags=20400, id=217740209): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib", inode=46347870, flags=20400, id=217740314): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv", inode=46347867, flags=20400, id=217740317): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217740320): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12", inode=46347871, flags=20400, id=217740326): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12/site-packages", inode=46347872, flags=20400, id=217740329): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/venv/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log", inode=46346805, flags=410000, id=217740642): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217740815): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log", inode=46346805, flags=410000, id=217740941): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217741126): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log", inode=46346805, flags=410000, id=217741325): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217741498): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log", inode=46346805, flags=410000, id=217741958): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217742223): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log", inode=46346805, flags=410000, id=217743033): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217743224): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log", inode=46346805, flags=410000, id=217745980): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217746416): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log", inode=46346805, flags=410000, id=217747417): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217748591): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/FETCH_HEAD", inode=46347768, flags=10400, id=217752478): is_file, is_inode_meta_mod
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/FETCH_HEAD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/FETCH_HEAD", inode=46347768, flags=410000, id=217752481): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/FETCH_HEAD", inode=46347768, flags=11400, id=217752561): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/FETCH_HEAD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/FETCH_HEAD", inode=46347768, flags=410000, id=217752564): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/objects/maintenance.lock", inode=46367153, flags=18300, id=217752588): is_coalesced, is_created, is_file, is_removed, is_xattr_mod
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/objects/maintenance.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/objects/maintenance.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/objects/maintenance.lock', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD.lock", inode=46367158, flags=19100, id=217752692): is_created, is_file, is_modified, is_xattr_mod
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/logs/refs/remotes/origin/HEAD", inode=46346791, flags=11000, id=217752695): is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD.lock", inode=46367158, flags=19900, id=217752703): is_coalesced, is_created, is_file, is_modified, is_renamed, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD", inode=46367158, flags=10800, id=217752704): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD", inode=46347779, flags=10800, id=217752705): is_file, is_renamed
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/logs/refs/remotes/origin/HEAD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD", inode=46367158, flags=10800, id=217752704)
+DEBUG:fsevents:queue_event FileMovedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD.lock', dest_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/logs/refs/remotes/origin/HEAD", inode=46346791, flags=410000, id=217752711): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD", inode=46367158, flags=410000, id=217752729): is_cloned, is_file
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD", inode=46367158, flags=410400, id=217752841): is_cloned, is_file, is_inode_meta_mod
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217752908): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git", inode=46346721, flags=20400, id=217752911): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/FETCH_HEAD", inode=46347768, flags=418000, id=217753107): is_cloned, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/FETCH_HEAD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git", inode=46346721, flags=20400, id=217753181): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217753184): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/logs", inode=46346787, flags=20400, id=217753187): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD", inode=46367158, flags=18000, id=217753190): is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/logs/refs/remotes", inode=46346789, flags=20400, id=217753193): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/logs/refs/remotes/origin", inode=46346790, flags=20400, id=217753199): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/logs', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/refs/remotes/origin/HEAD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/logs/refs/remotes', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/logs/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/logs/refs/remotes/origin/HEAD", inode=46346791, flags=18000, id=217753205): is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/logs/refs", inode=46346788, flags=20400, id=217753208): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/logs/refs/remotes/origin/HEAD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/logs/refs', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard", inode=46346720, flags=20400, id=217753345): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/FETCH_HEAD", inode=46347768, flags=18000, id=217753348): is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git", inode=46346721, flags=20400, id=217753354): is_directory, is_inode_meta_mod
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git/FETCH_HEAD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log", inode=46346805, flags=11000, id=217770632): is_file, is_modified
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/jessicakirkham/Documents/GitHub/DT4036_dashboard/app.log', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 471-164-635
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:42:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:42:08] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:42:08] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+ERROR:root:Database error: no such column: od.price_at_time
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:42:09] "[35m[1mGET /api/product_category_popularity HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:42:09] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:42:09] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:42:09] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:42:09] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:42:09] "GET /api/orders_over_time HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:42:09] "GET /api/temperature_over_time HTTP/1.1" 200 -
+ERROR:root:Database error: no such column: od.price_at_time
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:48:39] "[35m[1mGET /api/product_category_popularity HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:49:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:49:39] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:49:39] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+ERROR:root:Database error: no such column: od.price_at_time
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:49:39] "[35m[1mGET /api/product_category_popularity HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:49:39] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:49:39] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:49:39] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:49:39] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:49:39] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:49:40] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:55:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:55:01] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:55:01] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:55:01] "GET /api/orders_over_time HTTP/1.1" 200 -
+ERROR:root:Database error: no such column: od.price_at_time
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:55:01] "[35m[1mGET /api/product_category_popularity HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:55:01] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:55:01] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:55:01] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:55:01] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:55:01] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:55:05] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:57:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:57:55] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:57:55] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:57:55] "GET /api/most_popular_products HTTP/1.1" 200 -
+ERROR:root:Database error: no such column: od.price_at_time
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:57:55] "[35m[1mGET /api/product_category_popularity HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:57:55] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:57:55] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:57:55] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:57:55] "GET /api/orders_over_time HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:57:55] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:57:56] "[33mGET /quicklinks HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 14:57:59] "[33mGET /quicklinks HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:04:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:04:50] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:04:50] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+ERROR:root:Database error: no such column: od.price_at_time
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:04:50] "[35m[1mGET /api/product_category_popularity HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:04:50] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:04:50] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:04:50] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:04:50] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:04:50] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:04:50] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:04:57] "[33mGET /softwaredevelopment HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:04:59] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:05:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:05:54] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:05:54] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:05:54] "GET /api/orders_over_time HTTP/1.1" 200 -
+ERROR:root:Database error: no such column: od.price_at_time
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:05:54] "[35m[1mGET /api/product_category_popularity HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:05:54] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:05:54] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:05:54] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:05:54] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:05:55] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:05:56] "[33mGET /quicklinks HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:06:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:06:33] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:06:33] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:06:33] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:06:33] "GET /api/orders_over_time HTTP/1.1" 200 -
+ERROR:root:Database error: no such column: od.price_at_time
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:06:33] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:06:33] "[35m[1mGET /api/product_category_popularity HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:06:33] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:06:33] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:06:33] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:12:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:12:13] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:12:13] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+ERROR:root:Database error: no such column: od.price_at_time
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:12:13] "[35m[1mGET /api/product_category_popularity HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:12:13] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:12:13] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:12:13] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:12:13] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:12:13] "GET /api/orders_over_time HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:12:13] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:12:16] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:14:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:14:09] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:14:09] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+ERROR:root:Database error: no such column: od.price_at_time
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:14:09] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:14:09] "[35m[1mGET /api/product_category_popularity HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:14:09] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:14:09] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:14:09] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:14:09] "GET /api/orders_over_time HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:14:09] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:14:10] "GET /quicklinks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:14:10] "GET /static/quicklinks_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:14:12] "GET /softwaredevelopment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:14:12] "GET /static/softwaredevelopmentstylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:18:16] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:18:16] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:18:16] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:18:16] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:18:16] "GET /api/low_stock_levels HTTP/1.1" 200 -
+ERROR:root:Database error: no such column: od.price_at_time
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:18:16] "[35m[1mGET /api/product_category_popularity HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:18:16] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:18:16] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:18:16] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:18:16] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:20:18] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:20:18] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:20:18] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:20:18] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:20:18] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:20:18] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:20:18] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:20:18] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:20:18] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:21:28] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:21:28] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:21:28] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:21:28] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:21:28] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:21:28] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:21:28] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:21:28] "GET /api/most_popular_products HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:21:29] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:24] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:24] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:24] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:24] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:24] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:24] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:24] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:24] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:24] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:45] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:45] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:45] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:45] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:45] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:45] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:45] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:46] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:27:46] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:29:53] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:29:53] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:29:53] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:29:53] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:29:53] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:29:53] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:29:53] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:29:53] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:29:53] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:31:29] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:31:29] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:31:29] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:31:29] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:31:29] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:31:29] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:31:29] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:31:29] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:31:29] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:36:11] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:36:11] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:36:11] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:36:11] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:36:11] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:36:11] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:36:11] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:36:11] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:36:11] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:39:38] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:39:38] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:39:38] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:39:38] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:39:38] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:39:38] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:39:38] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:39:38] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:39:38] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:41:30] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:41:30] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:41:30] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:41:30] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:41:30] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:41:30] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:41:30] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:41:30] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:41:30] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:45:56] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:45:56] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:45:56] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:45:56] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:45:56] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:45:56] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:45:56] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:45:56] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:45:56] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:48:48] "GET /quicklinks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:48:48] "[36mGET /static/quicklinks_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:02] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:02] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:02] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:02] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:02] "GET /api/low_stock_levels HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:02] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:02] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:02] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:02] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:04] "GET /softwaredevelopment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:04] "[36mGET /static/softwaredevelopmentstylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:13] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:13] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:13] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:13] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:13] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:13] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:13] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:13] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 15:49:13] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:06:37] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:06:37] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:06:37] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:06:37] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:06:37] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:06:37] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:06:37] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:06:37] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:06:37] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:11:07] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:11:07] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:11:07] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:11:07] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:11:07] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:11:07] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:11:07] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:11:07] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:11:07] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:11:11] "GET /softwaredevelopment HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:17:43] "GET /softwaredevelopment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:17:44] "GET /quicklinks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:17:44] "[36mGET /static/quicklinks_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:17:45] "GET /softwaredevelopment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:17:46] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:17:46] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:17:46] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:17:46] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:17:46] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:17:46] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:17:46] "GET /api/orders_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:17:46] "GET /api/revenue_generation HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:17:47] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 16:17:47] "GET /softwaredevelopment HTTP/1.1" 200 -
