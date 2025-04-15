@@ -1,0 +1,71 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 18:49:45] "GET /softwaredevelopment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 18:49:47] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 18:49:52] "GET /quicklinks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 18:49:52] "GET /static/quicklinks_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 18:49:53] "GET /softwaredevelopment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 18:49:54] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 18:49:57] "GET /quicklinks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 18:49:57] "[36mGET /static/quicklinks_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 18:49:57] "[36mGET /static/quicklinks_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 18:49:57] "GET /softwaredevelopment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 18:50:00] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:23:07] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:26:29] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:26:29] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:26:29] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:26:33] "GET /quicklinks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:26:33] "[36mGET /static/quicklinks_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:26:33] "GET /softwaredevelopment HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:26:34] "GET /quicklinks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:26:34] "[36mGET /static/quicklinks_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:26:34] "[36mGET /static/quicklinks_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:28:26] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:28:26] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:28:26] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:28:28] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:28:28] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:28:28] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:29:00] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:29:00] "GET /static/dashboard_stylesheet.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:29:00] "[36mGET /static/dashboard-script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-617-136
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:29:24] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:29:24] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:29:24] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:29:24] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:29:24] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:29:24] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:29:24] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:29:24] "GET /api/orders_over_time HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2025 20:29:24] "GET /api/temperature_over_time HTTP/1.1" 200 -
