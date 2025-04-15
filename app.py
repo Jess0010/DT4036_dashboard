@@ -24,6 +24,17 @@ def query_db(query: str, args=()) -> list:
 
 app = Flask(__name__)
 
+@app.route("/dashboard")
+def dashboard():
+    return render_template("dashboard.html")
+
+@app.route("/quicklinks")
+def quicklinks():
+    return render_template("quicklinks.html")
+
+@app.route("/softwaredevelopment")
+def softwaredevelopment():
+    return render_template("softwaredevelopment.html")
 
 @app.errorhandler(404)
 def not_found(error):
@@ -106,7 +117,7 @@ def low_stock_levels() -> Response:
 @app.route("/api/most_popular_products")
 def most_popular_products_new() -> Response:
     query = """
-    SELECT p.product_id, p.product_name, SUM(od.quantity_ordered) AS total_quantity
+    SELECT p.product_id, p.product_name, SUM(od.quantity) AS total_quantity
     FROM order_details od
     JOIN products p ON od.product_id = p.product_id
     GROUP BY p.product_id, p.product_name
@@ -125,7 +136,7 @@ def most_popular_products_new() -> Response:
 @app.route("/api/revenue_generation")
 def revenue_generation() -> Response:
     query = """
-    SELECT o.order_date, SUM(od.price_at_time * od.quantity_ordered) AS total_revenue
+    SELECT o.order_date, SUM(od.order_value * od.quantity) AS total_revenue
     FROM order_details od
     JOIN orders o ON od.order_id = o.order_id
     GROUP BY o.order_date
